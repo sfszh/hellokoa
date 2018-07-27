@@ -1,0 +1,25 @@
+{
+  "name": "hellokoa",
+  "version": "1.0.0",
+  "description": "learn koa",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "tsc && node dist/server.js",
+    "watch-server": "nodemon --watch 'src/**/*' -e ts,tsx --exec 'ts-node' ./src/server.ts"
+  },
+  "author": "rui",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.5.2",
+    "koa-router": "^7.4.0"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.0.46",
+    "@types/koa-router": "^7.0.30",
+    "nodemon": "^1.18.3",
+    "ts-node": "^7.0.0",
+    "tslint": "^5.11.0",
+    "typescript": "^2.9.2"
+  }
+}
